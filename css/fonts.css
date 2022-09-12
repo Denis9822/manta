@@ -1,0 +1,305 @@
+@font-face {
+    font-family: open sans hebrew;
+    src: url(open_sans/opensanshebrew-light-webfont.eot);
+    src: url(open_sans/opensanshebrew-light-webfont.eot?#iefix) format('embedded-opentype'), url(open_sans/opensanshebrew-light-webfont.woff) format('woff'), url(open_sans/opensanshebrew-light-webfont.ttf) format('truetype'), url(open_sans/opensanshebrew-light-webfont.svg#open_sans_hebrewlight) format('svg');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: open sans hebrew;
+    src: url(open_sans/opensanshebrew-lightitalic-webfont.eot);
+    src: url(open_sans/opensanshebrew-lightitalic-webfont.eot?#iefix) format('embedded-opentype'), url(open_sans/opensanshebrew-lightitalic-webfont.woff) format('woff'), url(open_sans/opensanshebrew-lightitalic-webfont.ttf) format('truetype'), url(open_sans/opensanshebrew-lightitalic-webfont.svg#open_sans_hebrewlight_italic) format('svg');
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: open sans hebrew;
+    src: url(open_sans/opensanshebrew-regular-webfont.eot);
+    src: url(open_sans/opensanshebrew-regular-webfont.eot?#iefix) format('embedded-opentype'), url(open_sans/opensanshebrew-regular-webfont.woff) format('woff'), url(open_sans/opensanshebrew-regular-webfont.ttf) format('truetype'), url(open_sans/opensanshebrew-regular-webfont.svg#open_sans_hebrewregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: open sans hebrew;
+    src: url(open_sans/opensanshebrew-italic-webfont.eot);
+    src: url(open_sans/opensanshebrew-italic-webfont.eot?#iefix) format('embedded-opentype'), url(open_sans/opensanshebrew-italic-webfont.woff) format('woff'), url(open_sans/opensanshebrew-italic-webfont.ttf) format('truetype'), url(open_sans/opensanshebrew-italic-webfont.svg#open_sans_hebrewitalic) format('svg');
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: open sans hebrew;
+    src: url(open_sans/opensanshebrew-bold-webfont.eot);
+    src: url(open_sans/opensanshebrew-bold-webfont.eot?#iefix) format('embedded-opentype'), url(open_sans/opensanshebrew-bold-webfont.woff) format('woff'), url(open_sans/opensanshebrew-bold-webfont.ttf) format('truetype'), url(open_sans/opensanshebrew-bold-webfont.svg#open_sans_hebrewbold) format('svg');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: open sans hebrew;
+    src: url(open_sans/opensanshebrew-bolditalic-webfont.eot);
+    src: url(open_sans/opensanshebrew-bolditalic-webfont.eot?#iefix) format('embedded-opentype'), url(open_sans/opensanshebrew-bolditalic-webfont.woff) format('woff'), url(open_sans/opensanshebrew-bolditalic-webfont.ttf) format('truetype'), url(open_sans/opensanshebrew-bolditalic-webfont.svg#open_sans_hebrewbold_italic) format('svg');
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: open sans hebrew;
+    src: url(open_sans/opensanshebrew-extrabold-webfont.eot);
+    src: url(open_sans/opensanshebrew-extrabold-webfont.eot?#iefix) format('embedded-opentype'), url(open_sans/opensanshebrew-extrabold-webfont.woff) format('woff'), url(open_sans/opensanshebrew-extrabold-webfont.ttf) format('truetype'), url(open_sans/opensanshebrew-extrabold-webfont.svg#open_sans_hebrewextra_bold) format('svg');
+    font-weight: 800;
+    font-style: normal
+}
+
+@font-face {
+    font-family: open sans hebrew;
+    src: url(open_sans/opensanshebrew-extrabolditalic-webfont.eot);
+    src: url(open_sans/opensanshebrew-extrabolditalic-webfont.eot?#iefix) format('embedded-opentype'), url(open_sans/opensanshebrew-extrabolditalic-webfont.woff) format('woff'), url(open_sans/opensanshebrew-extrabolditalic-webfont.ttf) format('truetype'), url(open_sans/opensanshebrew-extrabolditalic-webfont.svg#open_sans_hebrewXBdIt) format('svg');
+    font-weight: 800;
+    font-style: italic
+}
+
+@font-face {
+    font-family: lexend;
+    font-weight: 100;
+    src: url(../fonts/Lexend/Lexend-Thin.ttf)
+}
+
+@font-face {
+    font-family: lexend;
+    font-weight: 300;
+    src: url(../fonts/Lexend/Lexend-Light.ttf)
+}
+
+@font-face {
+    font-family: lexend;
+    font-weight: 400;
+    src: url(../fonts/Lexend/Lexend-Regular.ttf)
+}
+
+@font-face {
+    font-family: lexend;
+    font-weight: 500;
+    src: url(../fonts/Lexend/Lexend-Medium.ttf)
+}
+
+@font-face {
+    font-family: lexend;
+    font-weight: 600;
+    src: url(../fonts/Lexend/Lexend-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: lexend;
+    font-weight: 700;
+    src: url(../fonts/Lexend/Lexend-Bold.ttf)
+}
+
+.language--wrap {
+    align-items: center;
+    box-shadow: inset 0px 0px 20px 2px rgba(254, 153, 198, 0.3);
+    padding: 0.3em 1.2em 0.3em 0.6em;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 210px;
+    margin-left: auto;
+    position: relative;
+    margin-top: 2px;
+    animation: pink-pulse 1s infinite ease-in-out;
+    box-shadow: 0 0 0 0.8rem transparent;
+    background: #f71278;
+}
+
+.language--wrap svg {
+    width: 90px;
+    margin-right: 8px;
+    height: auto;
+}
+
+.language--wrap svg path {
+    fill: white;
+}
+
+.flex-w {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3px;
+}
+
+.flex-w span {
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.flex-w p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.contract_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contract_address {
+    color: #1FB7C2;
+    font-weight: 500;
+}
+
+.contract_btn .blue {
+    background: #EAE9FF;
+    margin-left: 1vmax;
+    padding: 0.2em 1em;
+    border-radius: 1em;
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+
+.nav__menu--desktop {
+    display: flex !important;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.contract_row {
+    margin-top: 7px;
+}
+
+.contract_start_price {
+    color: #FEFCFD;
+    font-weight: 400;
+}
+
+.contract_start_price span {
+    font-weight: 600;
+}
+
+.contract_address {
+    display: flex;
+    align-items: center;
+}
+
+.contract_address img {
+    width: 17px;
+    height: auto;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.contact {
+    margin-right: 0px;
+}
+
+.dd {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.basic-btn_mr {
+    margin-left: 5px !important;
+    /* background-color: #089CF1 !important;
+    color: white !important; */
+}
+
+.dd_hidden {
+    width: 70px;
+    height: 30px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1C1A36;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #841738;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    header.header .container .flex {
+        margin-left: auto;
+        width: auto !important;
+    }
+    .contact {
+        margin-right: 10px;
+    }
+    header.header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        height: 7em;
+        padding-bottom: 10px;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    header.header .container .flex {
+        margin-right: auto;
+    }
+    .contact {
+        margin-right: 0;
+    }
+    .logo {
+        margin-top: -11px;
+    }
+    .contract_address {
+        font-size: 13px;
+    }
+    .contract_address img {
+        width: 15px;
+    }
+    .hero__wrap--sticky {
+        margin-top: 25px;
+    }
+    .contract_start_price {
+        font-size: 13px;
+    }
+    .heading-xl {
+        text-align: center;
+    }
+    .hero__heading-line-2 {
+        display: flex;
+        justify-content: center;
+    }
+}
