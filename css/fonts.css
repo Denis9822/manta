@@ -302,4 +302,7 @@ body::-webkit-scrollbar-thumb {
         display: flex;
         justify-content: center;
     }
+    .hero__heading-line-1 {
+        margin: 0 auto;
+    }
 }
